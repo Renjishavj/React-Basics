@@ -1,0 +1,18 @@
+/* src/App.css */
+.App {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input {
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  

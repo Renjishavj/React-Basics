@@ -1,0 +1,106 @@
+.mainContainer{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainHeader{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+   
+}
+.heading{
+    
+    
+    font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+     letter-spacing: 2px;
+     word-spacing: 2PX;
+}
+.sub-heading{
+    font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+ letter-spacing: 4px;
+ font-size: 16px;
+}
+.subHead{
+    background-color: rgb(7, 7, 7);
+    color: white;
+    margin-top: -16px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+}
+.subhead-btns{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    color: white;
+
+}
+
+
+/* Media queries for tablets and mobile phones */
+@media (max-width: 768px) {
+    .subHead {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .heading {
+        font-size: 24px; /* Adjust font size for tablets */
+    }
+
+    .sub-heading {
+        font-size: 14px; /* Adjust font size for tablets */
+    }
+
+    .subhead-btns {
+        font-size: 12px; /* Adjust font size for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .mainHeader {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .heading {
+        font-size: 20px; /* Adjust font size for mobile phones */
+    }
+
+    .sub-heading {
+        font-size: 12px; /* Adjust font size for mobile phones */
+    }
+
+    .subHead {
+        gap: 10px;
+        padding: 5px;
+    }
+
+    .subhead-btns {
+        font-size: 10px; /* Adjust font size for mobile phones */
+    }
+}
+
+
+
+
+
+
+
